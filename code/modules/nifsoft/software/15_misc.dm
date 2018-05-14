@@ -118,7 +118,7 @@
 	stat_text()
 		return "Show Laws"
 
-/datum/nifsoft/sizechange
+/*/datum/nifsoft/sizechange
 	name = "Mass Alteration"
 	desc = "A system that allows one to change their size, through drastic mass rearrangement. Causes significant wear when installed."
 	list_pos = NIF_SIZECHANGE
@@ -148,7 +148,7 @@
 
 	stat_text()
 		return "Change Size"
-
+*/
 /datum/nifsoft/worldbend
 	name = "World Bender"
 	desc = "Alters your perception of various objects in the world. Only has one setting for now: displaying all your crewmates as farm animals."
