@@ -357,10 +357,10 @@
 			var/newline = lhtml_encode(input("Enter your line: ", "Piano") as text|null)
 			if(!newline)
 				return
-			if(song.lines.len > 50)
+			if(song.lines.len > 200)
 				return
-			if(lentext(newline) > 50)
-				newline = copytext(newline, 1, 50)
+			if(lentext(newline) > 200)
+				newline = copytext(newline, 1, 200)
 			song.lines.Add(newline)
 
 		else if(href_list["deleteline"])
@@ -374,8 +374,8 @@
 			var/content = lhtml_encode(input("Enter your line: ", "Piano", song.lines[num]) as text|null)
 			if(!content)
 				return
-			if(lentext(content) > 50)
-				content = copytext(content, 1, 50)
+			if(lentext(content) > 200)
+				content = copytext(content, 1, 200)
 			if(num > song.lines.len || num < 1)
 				return
 			song.lines[num] = content
@@ -409,9 +409,9 @@
 				if(copytext(lines[1],1,6) == "BPM: ")
 					tempo = 600 / text2num(copytext(lines[1],6))
 					lines.Cut(1,2)
-				if(lines.len > 50)
+				if(lines.len > 200)
 					usr << "Too many lines!"
-					lines.Cut(51)
+					lines.Cut(201)
 				var/linenum = 1
 				for(var/l in lines)
 					if(lentext(l) > 50)
