@@ -521,7 +521,7 @@ var/global/list/obj/item/device/pda/PDAs = list()
 			data["records"] = cartridge.create_NanoUI_values()
 
 		if(mode == 0)
-			cartdata["name"] = cartridge.name
+			cartdata["name"] = lhtml_encode(cartridge.name)
 			if(isnull(cartridge.radio))
 				cartdata["radio"] = 0
 			else
