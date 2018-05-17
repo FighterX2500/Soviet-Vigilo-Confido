@@ -47,13 +47,13 @@
 
 
 
-/obj/item/clothing/under/bluespace/verb/resize()
+/*/obj/item/clothing/under/bluespace/verb/resize()
 	set name = "Adjust Size"
 	set category = "Object"
 	set src in usr
 	bluespace_size(usr)
 	..()
-
+*/
 
 
 /obj/item/clothing/under/bluespace/proc/bluespace_size(mob/usr as mob)
