@@ -45,7 +45,7 @@
 /datum/reagent/drink/roy_rogers
 	price_tag = 2
 
-/datum/reagent/drink/shirley_temple
+/datum/reagent/drink/shirleytemple
 	price_tag = 2
 
 /datum/reagent/drink/arnold_palmer

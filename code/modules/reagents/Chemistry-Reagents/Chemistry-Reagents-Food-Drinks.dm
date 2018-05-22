@@ -1192,17 +1192,6 @@
 	glass_desc = "The original, refreshing not-actually-ale."
 	glass_special = list(DRINK_FIZZ)
 
-/datum/reagent/drink/shirley_temple
-	name = "Shirley Temple"
-	id =  "shirley_temple"
-	description = "A sweet concotion hated even by its namesake."
-	taste_description = "sweet ginger ale"
-	color = "#EF304F"
-	adj_temp = -8
-
-	glass_name = "shirley temple"
-	glass_desc = "A sweet concotion hated even by its namesake."
-	glass_special = list(DRINK_FIZZ)
 
 /datum/reagent/drink/roy_rogers
 	name = "Roy Rogers"
@@ -1892,7 +1881,6 @@
 
 	glass_name = "glass of the classic"
 	glass_desc = "Just classic. Wow."
-	glass_center_of_mass = list("x"=17, "y"=8)
 
 /datum/reagent/ethanol/martini
 	name = "Classic Martini"
@@ -1915,7 +1903,6 @@
 
 	glass_name = "glass of cork popper"
 	glass_desc = "The confusing scent only proves all the more alluring."
-	glass_center_of_mass = list("x"=16, "y"=9)
 
 /datum/reagent/ethanol/cuba_libre
 	name = "Cuba Libre"
@@ -1973,7 +1960,6 @@
 
 	glass_name = "glass of french 75"
 	glass_desc = "It looks like a lemon shaved into your cocktail."
-	glass_center_of_mass = list("x"=16, "y"=5)
 
 /datum/reagent/ethanol/ginfizz
 	name = "Gin Fizz"
@@ -2210,7 +2196,6 @@
 
 	glass_name = "glass of muscovite mule"
 	glass_desc = "Such a pretty green, this couldn't possible go wrong!"
-	glass_center_of_mass = list("x"=17, "y"=10)
 
 /datum/reagent/ethanol/neurotoxin
 	name = "Neurotoxin"
@@ -2262,7 +2247,6 @@
 
 	glass_name = "glass of pink gin"
 	glass_desc = "What an eccentric cocktail."
-	glass_center_of_mass = list("x"=16, "y"=9)
 
 /datum/reagent/ethanol/pinkgintonic
 	name = "Pink Gin and Tonic."
@@ -2285,7 +2269,6 @@
 
 	glass_name = "glass of pirate's punch"
 	glass_desc = "Yarr harr fiddly dee, drink whatcha want 'cause a pirate is ye!"
-	glass_center_of_mass = list("x"=17, "y"=10)
 
 /datum/reagent/ethanol/planterpunch
 	name = "Planter's Punch"
@@ -2297,7 +2280,6 @@
 
 	glass_name = "glass of planter's punch"
 	glass_desc = "This takes you back, back to those endless white beaches of yore."
-	glass_center_of_mass = list("x"=16, "y"=8)
 
 /datum/reagent/ethanol/pwine
 	name = "Poison Wine"
@@ -2404,7 +2386,6 @@
 
 	glass_name = "glass of southside royale"
 	glass_desc = "This cocktail is better than you. Maybe it's the crossed arms that give it away. Or the rich parents."
-	glass_center_of_mass = list("x"=17, "y"=8)
 
 /datum/reagent/ethanol/suidream
 	name = "Sui Dream"
@@ -2912,28 +2893,6 @@
 
 	glass_name = "Whiskey Sour"
 	glass_desc = "A smokey, refreshing lemoned whiskey."
-
-/datum/reagent/ethanol/oldfashioned
-	name = "Old Fashioned"
-	id = "oldfashioned"
-	description = "A classic mix of whiskey and sugar... simple and direct."
-	taste_description = "smokey, divine whiskey"
-	color = "#774410" // rgb(119, 68, 16)
-	strength = 15
-
-	glass_name = "Old Fashioned"
-	glass_desc = "A classic mix of whiskey and sugar... simple and direct."
-
-/datum/reagent/ethanol/daiquiri
-	name = "Daiquiri"
-	id = "daiquiri"
-	description = "Refeshing rum and citrus. Time for a tropical get away."
-	taste_description = "refreshing citrus and rum"
-	color = "#d1ff49" // rgb(209, 255, 73
-	strength = 25
-
-	glass_name = "Daiquiri"
-	glass_desc = "Refeshing rum and citrus. Time for a tropical get away."
 
 /datum/reagent/ethanol/mojito
 	name = "Mojito"
@@ -3448,6 +3407,7 @@
 
 	glass_name = "glass of Shirley Temple"
 	glass_desc = "Straight from the good ship Lollipop."
+	glass_special = list(DRINK_FIZZ)
 
 /datum/reagent/ethanol/sugarrush
 	name = "Sugar Rush"

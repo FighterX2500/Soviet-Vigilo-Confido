@@ -723,6 +723,7 @@
 					/obj/item/weapon/reagent_containers/food/drinks/tea = 15,
 					/obj/item/weapon/glass_extra/stick = 30,
 					/obj/item/weapon/glass_extra/straw = 30,
+					/obj/item/weapon/reagent_containers/food/drinks/bottle/boukha = 2,
 					/obj/item/weapon/reagent_containers/food/drinks/bottle/mintsyrup = 5,
 					/obj/item/weapon/reagent_containers/food/drinks/bottle/champagne = 1,
 					/obj/item/weapon/reagent_containers/food/drinks/bottle/brandy = 5,

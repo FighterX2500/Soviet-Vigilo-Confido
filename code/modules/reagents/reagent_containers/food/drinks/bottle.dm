@@ -663,3 +663,13 @@
 /obj/item/weapon/reagent_containers/food/drinks/bottle/whitewine/New()
 	..()
 	reagents.add_reagent("whitewine", 100)
+
+/obj/item/weapon/reagent_containers/food/drinks/bottle/boukha
+	name = "Boukha Boboksa Classic"
+	desc = "A distillation of figs, imported from the Serene Republic of Elyra. Makes an excellent apertif or digestif."
+	icon_state = "boukhabottle"
+	center_of_mass = list("x"=16, "y"=6)
+
+/obj/item/weapon/reagent_containers/food/drinks/bottle/boukha/New()
+	..()
+	reagents.add_reagent("boukha", 100)

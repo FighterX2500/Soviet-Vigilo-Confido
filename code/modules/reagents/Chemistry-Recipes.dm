@@ -1913,13 +1913,6 @@
 	required_reagents = list("space_up" = 1, "bluecuracao" = 1, "melonliquor" = 1)
 	result_amount = 3
 
-/datum/chemical_reaction/drinks/shirleytemple
-	name = "Shirley Temple"
-	id = "shirley_temple"
-	result = "shirley_temple"
-	required_reagents = list("gingerale" = 4, "grenadine" = 1)
-	result_amount = 5
-
 /datum/chemical_reaction/drinks/royrogers
 	name = "Roy Rogers"
 	id = "roy_rogers"
@@ -2243,13 +2236,6 @@
 	result = "whiskeysour"
 	required_reagents = list("whiskey" = 2, "lemonjuice" = 1, "sugar" = 1)
 	result_amount = 4
-
-/datum/chemical_reaction/drinks/daiquiri
-	name = "Daiquiri"
-	id = "daiquiri"
-	result = "daiquiri"
-	required_reagents = list("rum" = 3, "limejuice" = 2, "sugar" = 1)
-	result_amount = 5
 
 /datum/chemical_reaction/drinks/mintjulep
 	name = "Mint Julep"
