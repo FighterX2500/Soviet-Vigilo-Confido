@@ -247,6 +247,16 @@
 	..()
 	reagents.add_reagent("nothing", 100)
 
+/obj/item/weapon/reagent_containers/food/drinks/bottle/mintsyrup
+	name = "Wintergreen Mint Syrup"
+	desc = "Minty fresh. NOTE: Do not use as a replacement for breath fresheners."
+	icon_state = "mint_syrup"
+	center_of_mass = list("x"=16, "y"=6)
+
+/obj/item/weapon/reagent_containers/food/drinks/bottle/mintsyrup/New()
+	..()
+	reagents.add_reagent("mintsyrup", 100)
+
 /obj/item/weapon/reagent_containers/food/drinks/bottle/patron
 	name = "Wrapp Artiste Patron"
 	desc = "Silver laced tequilla, served in space night clubs across the galaxy."
@@ -549,3 +559,107 @@
 /obj/item/weapon/reagent_containers/food/drinks/bottle/champagne/New()
 	..()
 	reagents.add_reagent("champagne", 100)
+
+//aurora's drinks
+
+/obj/item/weapon/reagent_containers/food/drinks/bottle/brandy
+	name = "E&J Brandy"
+	desc = "Cheap knock off for cognac."
+	icon_state = "brandybottle"
+
+/obj/item/weapon/reagent_containers/food/drinks/bottle/brandy/New()
+	..()
+	reagents.add_reagent("brandy", 100)
+
+/obj/item/weapon/reagent_containers/food/drinks/bottle/cremewhite
+	name = "Reese' Creme De Menthe"
+	desc = "Mint-flavoured alcohol, in a bottle."
+	icon_state = "whitecremebottle"
+
+/obj/item/weapon/reagent_containers/food/drinks/bottle/cremewhite/New()
+	..()
+	reagents.add_reagent("cremewhite", 100)
+
+/obj/item/weapon/reagent_containers/food/drinks/bottle/chartreusegreen
+	name = "Par La Perres Green Chartreuse"
+	desc = "A green, strong liqueur."
+	icon_state = "chartreusegreenbottle"
+
+/obj/item/weapon/reagent_containers/food/drinks/bottle/chartreusegreen/New()
+	..()
+	reagents.add_reagent("chartreusegreen", 100)
+
+/obj/item/weapon/reagent_containers/food/drinks/bottle/chartreuseyellow
+	name = "Par La Perres Yellow Chartreuse"
+	desc = "A yellow, strong liqueur."
+	icon_state = "chartreuseyellowbottle"
+
+/obj/item/weapon/reagent_containers/food/drinks/bottle/chartreuseyellow/New()
+	..()
+	reagents.add_reagent("chartreuseyellow", 100)
+
+/obj/item/weapon/reagent_containers/food/drinks/bottle/cremeyvette
+	name = "Reese' Creme De Yvette"
+	desc = "Berry-flavoured alcohol, in a bottle."
+	icon_state = "cremedeyvettebottle"
+
+/obj/item/weapon/reagent_containers/food/drinks/bottle/cremeyvette/New()
+	..()
+	reagents.add_reagent("cremeyvette", 100)
+
+/obj/item/weapon/reagent_containers/food/drinks/bottle/guinnes
+	name = "Guinness Draught"
+	desc = "A bottle of good old Guinness."
+	icon_state = "guinnes_bottle"
+
+/obj/item/weapon/reagent_containers/food/drinks/bottle/guinnes/New()
+	..()
+	reagents.add_reagent("guinnes", 100)
+
+/obj/item/weapon/reagent_containers/food/drinks/bottle/drambuie
+	name = "Isley's Drambuie Skye Liqueur"
+	desc = "A bottle of Drambuie."
+	icon_state = "drambuie_bottle"
+
+/obj/item/weapon/reagent_containers/food/drinks/bottle/drambuie/New()
+	..()
+	reagents.add_reagent("drambuie", 100)
+
+/obj/item/weapon/reagent_containers/food/drinks/bottle/bitters
+	name = "Angstra Aromatic Bitters"
+	desc = "Only the finest and highest quality herbs find their way into our cocktail bitters."
+	icon_state = "bitters"
+	center_of_mass = list("x"=16, "y"=10)
+
+/obj/item/weapon/reagent_containers/food/drinks/bottle/bitters/New()
+	..()
+	reagents.add_reagent("bitters",40)
+
+/obj/item/weapon/reagent_containers/food/drinks/bottle/fireball
+	name = "Uncle Git's Cinnamon Fireball"
+	desc = "A premium single-malt whiskey, infused with cinnamon and hot pepper inside the tunnels of a nuclear shelter. TUNNEL WHISKEY RULES"
+	icon_state = "fireballbottle"
+	center_of_mass = list("x"=16, "y"=3)
+
+/obj/item/weapon/reagent_containers/food/drinks/bottle/fireball/New()
+	..()
+	reagents.add_reagent("fireball", 100)
+
+/obj/item/weapon/reagent_containers/food/drinks/bottle/sbiten
+	name = "Golden Bee's Honey Sbiten"
+	desc = "A bottle full of sweet sbiten."
+	icon_state = "sbitenbottle"
+
+/obj/item/weapon/reagent_containers/food/drinks/bottle/sbiten/New()
+	..()
+	reagents.add_reagent("sbiten", 100)
+
+/obj/item/weapon/reagent_containers/food/drinks/bottle/whitewine
+	name = "Doublebeard Bearded White Wine"
+	desc = "A faint aura of unease and asspainery surrounds the bottle."
+	icon_state = "whitewinebottle"
+	center_of_mass = list("x"=16, "y"=4)
+
+/obj/item/weapon/reagent_containers/food/drinks/bottle/whitewine/New()
+	..()
+	reagents.add_reagent("whitewine", 100)
