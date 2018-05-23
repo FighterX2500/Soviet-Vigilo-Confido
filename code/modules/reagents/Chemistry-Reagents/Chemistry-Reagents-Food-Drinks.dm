@@ -993,7 +993,7 @@
 	color = "#539830"
 	taste_description = "mint"
 
-	glass_name = "glass of mint syrup"
+	glass_name = "mint syrup"
 	glass_desc = "Pure mint syrup. Prepare your tastebuds."
 	glass_center_of_mass = list("x"=17, "y"=6)
 
@@ -1857,7 +1857,7 @@
 	strength = 15
 	taste_description = "sweet mint alcohol"
 
-	glass_name = "glass of champagne mojito"
+	glass_name = "champagne mojito"
 	glass_desc = "Looks fun!"
 
 /datum/reagent/ethanol/changelingsting
@@ -1879,7 +1879,7 @@
 	strength = 20
 	taste_description = "sour and bitter"
 
-	glass_name = "glass of the classic"
+	glass_name = "the classic"
 	glass_desc = "Just classic. Wow."
 
 /datum/reagent/ethanol/martini
@@ -1901,7 +1901,7 @@
 	strength = 30
 	taste_description = "sour and smokey"
 
-	glass_name = "glass of cork popper"
+	glass_name = "cork popper"
 	glass_desc = "The confusing scent only proves all the more alluring."
 
 /datum/reagent/ethanol/cuba_libre
@@ -1958,7 +1958,7 @@
 	strength = 25
 	taste_description = "sour and classy"
 
-	glass_name = "glass of french 75"
+	glass_name = "french 75"
 	glass_desc = "It looks like a lemon shaved into your cocktail."
 
 /datum/reagent/ethanol/ginfizz
@@ -2194,7 +2194,7 @@
 	strength = 40
 	taste_description = "mint and a mule's kick"
 
-	glass_name = "glass of muscovite mule"
+	glass_name = "muscovite mule"
 	glass_desc = "Such a pretty green, this couldn't possible go wrong!"
 
 /datum/reagent/ethanol/neurotoxin
@@ -2223,7 +2223,7 @@
 	strength = 15
 	taste_description = "fizzy orange"
 
-	glass_name = "glass of orange mimosa"
+	glass_name = "orange mimosa"
 	glass_desc = "Smells like a fresh start."
 
 /datum/reagent/ethanol/patron
@@ -2245,7 +2245,7 @@
 	strength = 25
 	taste_description = "bitter christmas tree"
 
-	glass_name = "glass of pink gin"
+	glass_name = "pink gin"
 	glass_desc = "What an eccentric cocktail."
 
 /datum/reagent/ethanol/pinkgintonic
@@ -2256,7 +2256,7 @@
 	strength = 25
 	taste_description = "very bitter christmas tree"
 
-	glass_name = "glass of pink gin and tonic"
+	glass_name = "pink gin and tonic"
 	glass_desc = "You made gin and tonic more bitter... you madman!"
 
 /datum/reagent/ethanol/piratepunch
@@ -2267,7 +2267,7 @@
 	strength = 25
 	taste_description = "spiced fruit cocktail"
 
-	glass_name = "glass of pirate's punch"
+	glass_name = "pirate's punch"
 	glass_desc = "Yarr harr fiddly dee, drink whatcha want 'cause a pirate is ye!"
 
 /datum/reagent/ethanol/planterpunch
@@ -2278,7 +2278,7 @@
 	strength = 25
 	taste_description = "jamaica"
 
-	glass_name = "glass of planter's punch"
+	glass_name = "planter's punch"
 	glass_desc = "This takes you back, back to those endless white beaches of yore."
 
 /datum/reagent/ethanol/pwine
@@ -2384,7 +2384,7 @@
 	strength = 20
 	taste_description = "lime christmas tree"
 
-	glass_name = "glass of southside royale"
+	glass_name = "southside royale"
 	glass_desc = "This cocktail is better than you. Maybe it's the crossed arms that give it away. Or the rich parents."
 
 /datum/reagent/ethanol/suidream
@@ -2964,7 +2964,7 @@
 	strength = 15
 	taste_description = "oranges"
 
-	glass_name = "glass of Daiquiri"
+	glass_name = "Daiquiri"
 	glass_desc = "A splendid looking cocktail."
 
 /datum/reagent/ethanol/icepick
@@ -2975,7 +2975,7 @@
 	strength = 10
 	taste_description = "vodka and lemon"
 
-	glass_name = "glass of Ice Pick"
+	glass_name = "Ice Pick"
 	glass_desc = "Big. And red. Hmm..."
 
 /datum/reagent/ethanol/poussecafe
@@ -2986,7 +2986,7 @@
 	strength = 15
 	taste_description = "layers of liquors"
 
-	glass_name = "glass of Pousse-Cafe"
+	glass_name = "Pousse-Cafe"
 	glass_desc = "Smells of French and liquore."
 
 /datum/reagent/ethanol/mintjulep
@@ -2997,7 +2997,7 @@
 	strength = 25
 	taste_description = "old as time"
 
-	glass_name = "glass of Mint Julep"
+	glass_name = "Mint Julep"
 	glass_desc = "As old as time itself, but how does it taste?"
 
 /datum/reagent/ethanol/johncollins
@@ -3008,7 +3008,7 @@
 	strength = 25
 	taste_description = "whiskey"
 
-	glass_name = "glass of John Collins"
+	glass_name = "John Collins"
 	glass_desc = "Named after a man, perhaps?"
 
 /datum/reagent/ethanol/gimlet
@@ -3019,7 +3019,7 @@
 	strength = 20
 	taste_description = "gin and class"
 
-	glass_name = "glass of Gimlet"
+	glass_name = "Gimlet"
 	glass_desc = "Small, elegant, and packs a punch."
 
 /datum/reagent/ethanol/starsandstripes
@@ -3030,7 +3030,7 @@
 	strength = 10
 	taste_description = "freedom"
 
-	glass_name = "glass of Stars and Stripes"
+	glass_name = "Stars and Stripes"
 	glass_desc = "Someone, somewhere, is saluting."
 
 /datum/reagent/ethanol/metropolitan
@@ -3041,7 +3041,7 @@
 	strength = 27
 	taste_description = "fruity sweetness"
 
-	glass_name = "glass of Metropolitan"
+	glass_name = "Metropolitan"
 	glass_desc = "What more could you ask for?"
 
 /datum/reagent/ethanol/caruso
@@ -3052,7 +3052,7 @@
 	strength = 25
 	taste_description = "dryness"
 
-	glass_name = "glass of Caruso"
+	glass_name = "Caruso"
 	glass_desc = "Green, almost alien."
 
 /datum/reagent/ethanol/aprilshower
@@ -3063,7 +3063,7 @@
 	strength = 25
 	taste_description = "brandy and oranges"
 
-	glass_name = "glass of April Shower"
+	glass_name = "April Shower"
 	glass_desc = "Smells of brandy."
 
 /datum/reagent/ethanol/carthusiansazerac
@@ -3074,7 +3074,7 @@
 	strength = 15
 	taste_description = "sweetness"
 
-	glass_name = "glass of Carthusian Sazerac"
+	glass_name = "Carthusian Sazerac"
 	glass_desc = "Whiskey and... Syrup?"
 
 /datum/reagent/ethanol/deweycocktail
@@ -3085,7 +3085,7 @@
 	strength = 25
 	taste_description = "dry gin"
 
-	glass_name = "glass of Dewey Cocktail"
+	glass_name = "Dewey Cocktail"
 	glass_desc = "Colours, look at all the colours!"
 
 /datum/reagent/ethanol/chartreusegreen
@@ -3096,7 +3096,7 @@
 	strength = 40
 	taste_description = "a mixture of herbs"
 
-	glass_name = "glass of Green Chartreuse"
+	glass_name = "Green Chartreuse"
 	glass_desc = "A green, strong liqueur."
 
 /datum/reagent/ethanol/chartreuseyellow
@@ -3107,7 +3107,7 @@
 	strength = 40
 	taste_description = "a sweet mixture of herbs"
 
-	glass_name = "glass of Yellow Chartreuse"
+	glass_name = "Yellow Chartreuse"
 	glass_desc = "A yellow, strong liqueur."
 
 /datum/reagent/ethanol/cremewhite
@@ -3118,7 +3118,7 @@
 	strength = 20
 	taste_description = "mint"
 
-	glass_name = "glass of White Creme de Menthe"
+	glass_name = "White Creme de Menthe"
 	glass_desc = "Mint-flavoured alcohol."
 
 /datum/reagent/ethanol/cremeyvette
@@ -3129,7 +3129,7 @@
 	strength = 20
 	taste_description = "berries"
 
-	glass_name = "glass of Creme de Yvette"
+	glass_name = "Creme de Yvette"
 	glass_desc = "Berry-flavoured alcohol."
 
 /datum/reagent/ethanol/brandy
@@ -3140,7 +3140,7 @@
 	strength = 40
 	taste_description = "cheap cognac"
 
-	glass_name = "glass of Brandy"
+	glass_name = "Brandy"
 	glass_desc = "Cheap knock off for cognac."
 
 /datum/reagent/ethanol/guinnes
@@ -3151,7 +3151,7 @@
 	strength = 8
 	taste_description = "dryness"
 
-	glass_name = "glass of Guinness"
+	glass_name = "Guinness"
 	glass_desc = "A glass of Guinness."
 
 /datum/reagent/ethanol/drambuie
@@ -3162,7 +3162,7 @@
 	strength = 40
 	taste_description = "sweet whisky"
 
-	glass_name = "glass of Drambuie"
+	glass_name = "Drambuie"
 	glass_desc = "A drink that smells like whiskey but tastes different."
 
 /datum/reagent/ethanol/oldfashioned
@@ -3173,7 +3173,7 @@
 	strength = 30
 	taste_description = "bitterness"
 
-	glass_name = "glass of Old Fashioned"
+	glass_name = "Old Fashioned"
 	glass_desc = "That looks like it's from the sixties."
 
 /datum/reagent/ethanol/blindrussian
@@ -3184,7 +3184,7 @@
 	strength = 40
 	taste_description = "bitterness blindness"
 
-	glass_name = "glass of Blind Russian"
+	glass_name = "Blind Russian"
 	glass_desc = "You can't see?"
 
 /datum/reagent/ethanol/rustynail
@@ -3195,7 +3195,7 @@
 	strength = 25
 	taste_description = "lemons"
 
-	glass_name = "glass of Rusty Nail"
+	glass_name = "Rusty Nail"
 	glass_desc = "Smells like lemon."
 
 /datum/reagent/ethanol/tallrussian
@@ -3206,7 +3206,7 @@
 	strength = 25
 	taste_description = "tall bitterness"
 
-	glass_name = "glass of Tall Black Russian"
+	glass_name = "Tall Black Russian"
 	glass_desc = "Just like black russian but taller."
 
 //Synnono Meme Drinks
@@ -3219,7 +3219,7 @@
 	strength = 50
 	taste_description = "naughtiness"
 
-	glass_name = "glass of Bad Touch"
+	glass_name = "Bad Touch"
 	glass_desc = "We're nothing but mammals, after all."
 
 /datum/reagent/ethanol/bluelagoon
@@ -3230,7 +3230,7 @@
 	strength = 25
 	taste_description = "electric lemonade"
 
-	glass_name = "glass of Blue Lagoon"
+	glass_name = "Blue Lagoon"
 	glass_desc = "Because lagoons shouldn't come in other colors."
 
 /datum/reagent/ethanol/boukha
@@ -3241,7 +3241,7 @@
 	strength = 40
 	taste_description = "spiced figs"
 
-	glass_name = "glass of boukha"
+	glass_name = "boukha"
 	glass_desc = "A distillation of figs, popular in the Serene Republic of Elyra."
 
 /datum/reagent/ethanol/fireball
@@ -3252,7 +3252,7 @@
 	strength = 35
 	taste_description = "cinnamon whiskey"
 
-	glass_name = "glass of fireball"
+	glass_name = "fireball"
 	glass_desc = "Whiskey that's been infused with cinnamon and hot pepper. Is this safe to drink?"
 	taste_mult = 1.2
 	var/agony_dose = 5
@@ -3288,7 +3288,7 @@
 	strength = 15
 	taste_description = "sweet spiced cherries"
 
-	glass_name = "glass of Cherry Tree Fireball"
+	glass_name = "Cherry Tree Fireball"
 	glass_desc = "An iced fruit cocktail shaken with cinnamon whiskey. Hot, cold and sweet all at once."
 
 /datum/reagent/ethanol/cobaltvelvet
@@ -3299,7 +3299,7 @@
 	strength = 25
 	taste_description = "neon champagne"
 
-	glass_name = "glass of Cobalt Velvet"
+	glass_name = "Cobalt Velvet"
 	glass_desc = "An electric blue champagne cocktail that's popular on the club scene."
 
 /datum/reagent/ethanol/fringeweaver
@@ -3310,7 +3310,7 @@
 	strength = 65
 	taste_description = "liquid regret"
 
-	glass_name = "glass of Fringe Weaver"
+	glass_name = "Fringe Weaver"
 	glass_desc = "Effectively pure alcohol with a dose of sugar. It's as simple as it is strong."
 
 /datum/reagent/ethanol/junglejuice
@@ -3321,7 +3321,7 @@
 	strength = 35
 	taste_description = "a fraternity house party"
 
-	glass_name = "glass of Jungle Juice"
+	glass_name = "Jungle Juice"
 	glass_desc = "You're in the jungle now, baby."
 
 /datum/reagent/ethanol/marsarita
@@ -3332,7 +3332,7 @@
 	strength = 30
 	taste_description = "spicy, salty lime"
 
-	glass_name = "glass of Marsarita"
+	glass_name = "Marsarita"
 	glass_desc = "The margarita with a Martian twist. They call it something less embarrassing there."
 
 /datum/reagent/drink/meloncooler
@@ -3342,7 +3342,7 @@
 	color = "#d8457b"
 	taste_description = "minty melon"
 
-	glass_name = "glass of Melon Cooler"
+	glass_name = "Melon Cooler"
 	glass_desc = "Summertime on the beach, in liquid form."
 
 /datum/reagent/ethanol/midnightkiss
@@ -3353,7 +3353,7 @@
 	strength = 25
 	taste_description = "a late-night promise"
 
-	glass_name = "glass of Midnight Kiss"
+	glass_name = "Midnight Kiss"
 	glass_desc = "A champagne cocktail, quietly bubbling in a slender glass."
 
 /datum/reagent/drink/millionairesour
@@ -3363,7 +3363,7 @@
 	color = "#13144c"
 	taste_description = "tart fruit"
 
-	glass_name = "glass of Millionaire Sour"
+	glass_name = "Millionaire Sour"
 	glass_desc = "It's a good mix, a great mix. Best mix in the galaxy. It's terrific, you're gonna love it."
 
 /datum/reagent/ethanol/olympusmons
@@ -3374,7 +3374,7 @@
 	strength = 30
 	taste_description = "bittersweet independence"
 
-	glass_name = "glass of Olympus Mons"
+	glass_name = "Olympus Mons"
 	glass_desc = "Another, stronger version of the Black Russian. It's popular in some Martian arcologies."
 
 /datum/reagent/ethanol/europanail
@@ -3385,7 +3385,7 @@
 	strength = 30
 	taste_description = "a coffee-flavored moon"
 
-	glass_name = "glass of Europa Nail"
+	glass_name = "Europa Nail"
 	glass_desc = "Named for Jupiter's moon. It looks about as crusty."
 
 /datum/reagent/drink/portsvilleminttea
@@ -3395,7 +3395,7 @@
 	color = "#b6f442"
 	taste_description = "cool minty tea"
 
-	glass_name = "glass of Portsville Mint Tea"
+	glass_name = "Portsville Mint Tea"
 	glass_desc = "A popular iced pick-me-up originating from a city in Eos, on Biesel."
 
 /datum/reagent/drink/shirleytemple
@@ -3405,7 +3405,7 @@
 	color = "#ce2727"
 	taste_description = "innocence"
 
-	glass_name = "glass of Shirley Temple"
+	glass_name = "Shirley Temple"
 	glass_desc = "Straight from the good ship Lollipop."
 	glass_special = list(DRINK_FIZZ)
 
@@ -3417,7 +3417,7 @@
 	strength = 15
 	taste_description = "sweet soda"
 
-	glass_name = "glass of Sugar Rush"
+	glass_name = "Sugar Rush"
 	glass_desc = "Sweet, light and fruity. As girly as it gets."
 
 /datum/reagent/ethanol/sangria
@@ -3428,7 +3428,7 @@
 	strength = 30
 	taste_description = "sweet wine"
 
-	glass_name = "glass of Sangria"
+	glass_name = "Sangria"
 	glass_desc = "Red wine, splashed with brandy and infused with fruit."
 
 /datum/reagent/ethanol/bassline
@@ -3439,7 +3439,7 @@
 	strength = 25
 	taste_description = "the groove"
 
-	glass_name = "glass of Bassline"
+	glass_name = "Bassline"
 	glass_desc = "A vodka cocktail from Vega De Rosa, Mendell City's entertainment district. Purple and deep."
 
 /datum/reagent/ethanol/bluebird
@@ -3450,7 +3450,7 @@
 	strength = 30
 	taste_description = "a blue christmas tree"
 
-	glass_name = "glass of Bluebird"
+	glass_name = "Bluebird"
 	glass_desc = "A gin drink popularized by a spy thriller in 2452."
 
 /datum/reagent/ethanol/whitewine
@@ -3461,6 +3461,6 @@
 	strength = 15
 	taste_description = "dry sweetness"
 
-	glass_name = "glass of white wine"
+	glass_name = "white wine"
 	glass_desc = "A very classy looking drink."
 	glass_center_of_mass = list("x"=15, "y"=7)
