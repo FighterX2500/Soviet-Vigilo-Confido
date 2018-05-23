@@ -3232,6 +3232,7 @@
 
 	glass_name = "Blue Lagoon"
 	glass_desc = "Because lagoons shouldn't come in other colors."
+	glass_special = list(DRINK_FIZZ)
 
 /datum/reagent/ethanol/boukha
 	name = "Boukha"
