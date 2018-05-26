@@ -310,4 +310,3 @@
 
 /obj/item/weapon/reagent_containers/food/drinks/britcup/on_reagent_change()
 	..()
-

@@ -78,3 +78,25 @@
 	possible_transfer_amounts = list(5, 10, 15, 25)
 	rim_pos = list(25, 12, 21)
 	matter = list("glass" = 50)
+
+/obj/item/weapon/reagent_containers/food/drinks/glass2/carafe
+	name = "carafe"
+	base_name = "carafe"
+	base_icon = "carafe"
+	filling_states = list(10, 20, 30, 40, 50, 60, 70, 80, 90, 100)
+	volume = 120
+	matter = list("glass" = 250)
+	possible_transfer_amounts = list(5, 10, 15, 30, 60, 120)
+	rim_pos = list(26, 12, 21)
+	center_of_mass = list("x"=16, "y"=7)
+
+/obj/item/weapon/reagent_containers/food/drinks/glass2/pitcher
+	name = "pitcher"
+	base_name = "pitcher"
+	desc = "Everyone's best friend in the morning."
+	icon_state = "pitcher"
+	volume = 120
+	amount_per_transfer_from_this = 10
+	center_of_mass = list("x"=16, "y"=9)
+	filling_states = list(15, 30, 50, 70, 85, 100)
+	base_icon = "pitcher"
