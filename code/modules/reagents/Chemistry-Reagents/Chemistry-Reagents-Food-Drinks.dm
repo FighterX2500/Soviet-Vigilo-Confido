@@ -703,7 +703,7 @@
 	adj_sleepy = -3
 	adj_temp = 20
 
-	glass_name = "cup of tea"
+	glass_name = "tea"
 	glass_desc = "Tasty black tea, it has antioxidants, it's good for you!"
 
 	cup_icon_state = "cup_tea"
@@ -814,7 +814,7 @@
 	cup_name = "cup of coffee"
 	cup_desc = "Don't drop it, or you'll send scalding liquid and porcelain shards everywhere."
 
-	glass_name = "cup of coffee"
+	glass_name = "coffee"
 	glass_desc = "Don't drop it, or you'll send scalding liquid and glass shards everywhere."
 
 
