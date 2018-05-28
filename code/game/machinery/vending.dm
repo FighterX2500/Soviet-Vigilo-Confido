@@ -510,6 +510,8 @@
 			if(R.get_product(get_turf(src)))
 				visible_message("<span class='notice'>\The [src] clunks as it vends an additional item.</span>")
 
+		playsound(src, 'sound/items/vending.ogg', 50, 1, 1)
+
 		status_message = ""
 		status_error = 0
 		vend_ready = 1
@@ -686,7 +688,10 @@
 					/obj/item/weapon/reagent_containers/food/drinks/glass2/pint = 10,
 					/obj/item/weapon/reagent_containers/food/drinks/glass2/mug = 10,
 					/obj/item/weapon/reagent_containers/food/drinks/glass2/wine = 10,
+					/obj/item/weapon/reagent_containers/food/drinks/glass2/carafe = 2,
+					/obj/item/weapon/reagent_containers/food/drinks/cup = 8,
 					/obj/item/weapon/reagent_containers/food/drinks/metaglass = 10,
+					/obj/item/weapon/reagent_containers/food/drinks/glass2/pitcher = 2,
 					/obj/item/weapon/reagent_containers/food/drinks/bottle/gin = 5,
 					/obj/item/weapon/reagent_containers/food/drinks/bottle/absinthe = 5,
 					/obj/item/weapon/reagent_containers/food/drinks/bottle/bluecuracao = 5,
@@ -702,6 +707,20 @@
 					/obj/item/weapon/reagent_containers/food/drinks/bottle/vodka = 5,
 					/obj/item/weapon/reagent_containers/food/drinks/bottle/whiskey = 5,
 					/obj/item/weapon/reagent_containers/food/drinks/bottle/wine = 5,
+					/obj/item/weapon/reagent_containers/food/drinks/bottle/boukha = 2,
+					/obj/item/weapon/reagent_containers/food/drinks/bottle/mintsyrup = 5,
+					/obj/item/weapon/reagent_containers/food/drinks/bottle/champagne = 1,
+					/obj/item/weapon/reagent_containers/food/drinks/bottle/brandy = 5,
+					/obj/item/weapon/reagent_containers/food/drinks/bottle/cremewhite = 4,
+					/obj/item/weapon/reagent_containers/food/drinks/bottle/chartreusegreen = 5,
+					/obj/item/weapon/reagent_containers/food/drinks/bottle/chartreuseyellow = 5,
+					/obj/item/weapon/reagent_containers/food/drinks/bottle/cremeyvette = 4,
+					/obj/item/weapon/reagent_containers/food/drinks/bottle/guinnes = 4,
+					/obj/item/weapon/reagent_containers/food/drinks/bottle/drambuie = 4,
+					/obj/item/weapon/reagent_containers/food/drinks/bottle/bitters = 6,
+					/obj/item/weapon/reagent_containers/food/drinks/bottle/fireball = 2,
+					/obj/item/weapon/reagent_containers/food/drinks/bottle/sbiten = 2,
+					/obj/item/weapon/reagent_containers/food/drinks/bottle/whitewine = 5,
 					/obj/item/weapon/reagent_containers/food/drinks/bottle/small/ale = 15,
 					/obj/item/weapon/reagent_containers/food/drinks/bottle/small/beer = 15,
 					/obj/item/weapon/reagent_containers/food/drinks/bottle/orangejuice = 5,
@@ -992,6 +1011,9 @@
 	/obj/item/weapon/material/kitchen/utensil/spoon = 6,
 	/obj/item/weapon/material/knife = 3,
 	/obj/item/weapon/material/kitchen/rollingpin = 2,
+	/obj/item/weapon/reagent_containers/food/drinks/glass2/pitcher = 2,
+	/obj/item/weapon/reagent_containers/food/drinks/cup = 8,
+	/obj/item/weapon/reagent_containers/food/drinks/glass2/carafe = 2,
 	/obj/item/weapon/reagent_containers/food/drinks/glass2/square = 8,
 	/obj/item/weapon/reagent_containers/food/drinks/glass2/shake = 8,
 	/obj/item/weapon/glass_extra/stick = 15,

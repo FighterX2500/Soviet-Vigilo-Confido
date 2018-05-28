@@ -244,7 +244,6 @@
 		M.verbs +=  /mob/living/carbon/human/proc/shapeshifter_select_hair
 		M.verbs +=  /mob/living/carbon/human/proc/shapeshifter_select_gender
 		M.verbs +=  /mob/living/carbon/human/proc/regenerate
-		M.verbs +=  /mob/living/proc/set_size
 		M.shapeshifter_select_shape()
 
 /obj/belly/proc/put_in_egg(var/atom/movable/M, message=0)

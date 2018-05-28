@@ -369,7 +369,7 @@ var/global/list/latejoin_tram   = list()
 
 /obj/item/weapon/reagent_containers/pill/airlock
 	name = "\'Airlock\' Pill"
-	desc = "Neutralizes toxins and provides a mild alangesic effect."
+	desc = "Neutralizes toxins and provides a mild analgesic effect."
 	icon_state = "pill2"
 
 /obj/item/weapon/reagent_containers/pill/airlock/New()
@@ -396,6 +396,8 @@ var/global/list/latejoin_tram   = list()
 	..()
 	for(var/i = 1 to 4)
 		new /obj/item/weapon/gun/energy/frontier/locked(src)
+	for(var/i = 1 to 4)
+		new /obj/item/weapon/gun/energy/frontier/locked/holdout(src)
 
 // Underdark mob spawners
 /obj/tether_away_spawner/underdark_normal

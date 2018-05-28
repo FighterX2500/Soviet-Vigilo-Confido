@@ -2,7 +2,7 @@
 ////////////////////////////
 /// NW's shrinking serum ///
 ////////////////////////////
-
+/*
 /datum/reagent/macrocillin
 	name = "Macrocillin"
 	id = "macrocillin"
@@ -63,7 +63,7 @@
 	M.confused = max(M.confused, 20)
 	return
 
-
+*/
 ////////////////////////// Anti-Noms Drugs //////////////////////////
 
 /datum/reagent/ickypak

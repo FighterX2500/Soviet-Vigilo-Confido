@@ -160,6 +160,9 @@ Drinks Data
 /datum/reagent/drink/soda/brownstar
 	glass_icon_state = "brownstar"
 
+/datum/reagent/drink/mintsyrup
+	glass_icon_state = "mint_syrupglass"
+
 /datum/reagent/drink/milkshake
 	glass_icon_state = "milkshake"
 	glass_center_of_mass = list("x"=16, "y"=7)
@@ -332,12 +335,23 @@ Drinks Data
 	glass_icon_state = "bravebullglass"
 	glass_center_of_mass = list("x"=15, "y"=8)
 
+/datum/reagent/ethanol/cmojito
+	glass_icon_state = "cmojito"
+
 /datum/reagent/ethanol/changelingsting
 	glass_icon_state = "changelingsting"
+
+/datum/reagent/ethanol/classic
+	glass_icon_state = "classic"
+	glass_center_of_mass = list("x"=17, "y"=8)
 
 /datum/reagent/ethanol/martini
 	glass_icon_state = "martiniglass"
 	glass_center_of_mass = list("x"=17, "y"=8)
+
+/datum/reagent/ethanol/corkpopper
+	glass_icon_state = "corkpopper"
+	glass_center_of_mass = list("x"=16, "y"=9)
 
 /datum/reagent/ethanol/cuba_libre
 	glass_icon_state = "cubalibreglass"
@@ -354,6 +368,10 @@ Drinks Data
 /datum/reagent/ethanol/driestmartini
 	glass_icon_state = "driestmartiniglass"
 	glass_center_of_mass = list("x"=17, "y"=8)
+
+/datum/reagent/ethanol/french75
+	glass_icon_state = "french75"
+	glass_center_of_mass = list("x"=16, "y"=5)
 
 /datum/reagent/ethanol/ginfizz
 	glass_icon_state = "ginfizzglass"
@@ -426,13 +444,35 @@ Drinks Data
 /datum/reagent/ethanol/moonshine
 	glass_icon_state = "glass_clear"
 
+/datum/reagent/ethanol/muscmule
+	glass_icon_state = "muscmule"
+	glass_center_of_mass = list("x"=17, "y"=10)
+
 /datum/reagent/ethanol/neurotoxin
 	glass_icon_state = "neurotoxinglass"
 	glass_center_of_mass = list("x"=16, "y"=8)
 
+/datum/reagent/ethanol/omimosa
+	glass_icon_state = "omimosa"
+
 /datum/reagent/ethanol/patron
 	glass_icon_state = "patronglass"
 	glass_center_of_mass = list("x"=7, "y"=8)
+
+/datum/reagent/ethanol/pinkgin
+	glass_icon_state = "pinkgin"
+	glass_center_of_mass = list("x"=16, "y"=9)
+
+/datum/reagent/ethanol/pinkgintonic
+	glass_icon_state = "pinkgintonic"
+
+/datum/reagent/ethanol/piratepunch
+	glass_icon_state = "piratepunch"
+	glass_center_of_mass = list("x"=17, "y"=10)
+
+/datum/reagent/ethanol/planterpunch
+	glass_icon_state = "planterpunch"
+	glass_center_of_mass = list("x"=16, "y"=8)
 
 /datum/reagent/ethanol/pwine
 	glass_icon_state = "pwineglass"
@@ -461,6 +501,10 @@ Drinks Data
 /datum/reagent/ethanol/snowwhite
 	glass_icon_state = "snowwhite"
 	glass_center_of_mass = list("x"=16, "y"=8)
+
+/datum/reagent/ethanol/ssroyale
+	glass_icon_state = "ssroyale"
+	glass_center_of_mass = list("x"=17, "y"=8)
 
 /datum/reagent/ethanol/suidream
 	glass_icon_state = "sdreamglass"
@@ -503,3 +547,138 @@ Drinks Data
 /datum/reagent/ethanol/specialwhiskey
 	glass_icon_state = "whiskeyglass"
 	glass_center_of_mass = list("x"=16, "y"=12)
+
+/datum/reagent/ethanol/daiquiri
+	glass_icon_state = "whiskeyglass"
+
+/datum/reagent/ethanol/icepick
+	glass_icon_state = "icepick"
+
+/datum/reagent/ethanol/poussecafe
+	glass_icon_state = "pousseecafe"
+
+/datum/reagent/ethanol/mintjulep
+	glass_icon_state = "mintjulep"
+
+/datum/reagent/ethanol/johncollins
+	glass_icon_state = "johncollins"
+
+/datum/reagent/ethanol/gimlet
+	glass_icon_state = "gimlet"
+
+/datum/reagent/ethanol/starsandstripes
+	glass_icon_state = "starsandstripes"
+
+/datum/reagent/ethanol/metropolitan
+	glass_icon_state = "metropolitan"
+
+/datum/reagent/ethanol/caruso
+	glass_icon_state = "caruso"
+
+/datum/reagent/ethanol/aprilshower
+	glass_icon_state = "aprilshower"
+
+/datum/reagent/ethanol/carthusiansazerac
+	glass_icon_state = "carthusiansazerac"
+
+/datum/reagent/ethanol/deweycocktail
+	glass_icon_state = "deweycocktail"
+
+/datum/reagent/ethanol/chartreusegreen
+	glass_icon_state = "greenchartreuseglass"
+
+/datum/reagent/ethanol/chartreuseyellow
+	glass_icon_state = "chartreuseyellowglass"
+
+/datum/reagent/ethanol/cremewhite
+	glass_icon_state = "whitecremeglass"
+
+/datum/reagent/ethanol/cremeyvette
+	glass_icon_state = "cremedeyvetteglass"
+
+/datum/reagent/ethanol/brandy
+	glass_icon_state = "brandyglass"
+
+/datum/reagent/ethanol/guinnes
+	glass_icon_state = "guinnes_glass"
+
+/datum/reagent/ethanol/drambuie
+	glass_icon_state = "drambuieglass"
+
+/datum/reagent/ethanol/oldfashioned
+	glass_icon_state = "oldfashioned"
+
+/datum/reagent/ethanol/blindrussian
+	glass_icon_state = "blindrussian"
+
+/datum/reagent/ethanol/rustynail
+	glass_icon_state = "rustynail"
+
+/datum/reagent/ethanol/tallrussian
+	glass_icon_state = "tallblackrussian"
+
+/datum/reagent/ethanol/badtouch
+	glass_icon_state = "badtouch"
+
+/datum/reagent/ethanol/bluelagoon
+	glass_icon_state = "bluelagoon"
+
+/datum/reagent/ethanol/boukha
+	glass_icon_state = "boukhaglass"
+
+/datum/reagent/ethanol/fireball
+	glass_icon_state = "fireballglass"
+
+/datum/reagent/ethanol/cherrytreefireball
+	glass_icon_state = "cherrytreefireball"
+
+/datum/reagent/ethanol/cobaltvelvet
+	glass_icon_state = "cobaltvelvet"
+
+/datum/reagent/ethanol/fringeweaver
+	glass_icon_state = "fringeweaver"
+
+/datum/reagent/ethanol/junglejuice
+	glass_icon_state = "junglejuice"
+
+/datum/reagent/ethanol/marsarita
+	glass_icon_state = "marsarita"
+
+/datum/reagent/drink/meloncooler
+	glass_icon_state = "meloncooler"
+
+/datum/reagent/ethanol/midnightkiss
+	glass_icon_state = "midnightkiss"
+
+/datum/reagent/drink/millionairesour
+	glass_icon_state = "millionairesour"
+
+/datum/reagent/ethanol/olympusmons
+	glass_icon_state = "olympusmons"
+
+/datum/reagent/ethanol/europanail
+	glass_icon_state = "europanail"
+
+/datum/reagent/drink/portsvilleminttea
+	glass_icon_state = "portsvilleminttea"
+
+/datum/reagent/drink/shirleytemple
+	glass_icon_state = "shirleytemple"
+
+/datum/reagent/ethanol/sugarrush
+	glass_icon_state = "sugarrush"
+
+/datum/reagent/ethanol/sangria
+	glass_icon_state = "sangria"
+
+/datum/reagent/ethanol/bassline
+	glass_icon_state = "bassline"
+
+/datum/reagent/ethanol/bluebird
+	glass_icon_state = "bluebird"
+
+/datum/reagent/ethanol/whitewine
+	glass_icon_state = "bluebird"
+
+/datum/reagent/ethanol/wine/champagne
+	glass_icon_state = "champagneglass"

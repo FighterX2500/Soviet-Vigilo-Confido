@@ -38,6 +38,10 @@
 	name = "wine glass"
 	path =/obj/item/weapon/reagent_containers/food/drinks/glass2/wine
 
+/datum/category_item/autolathe/general/drinkingglass_carafe
+	name = "carafe"
+	path = /obj/item/weapon/reagent_containers/food/drinks/glass2/carafe
+
 /datum/category_item/autolathe/general/flashlight
 	name = "flashlight"
 	path =/obj/item/device/flashlight
