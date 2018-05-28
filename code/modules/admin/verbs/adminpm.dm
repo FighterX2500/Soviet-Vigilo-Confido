@@ -56,11 +56,7 @@
 			else		src << "<font color='red'>Error: Private-Message: Client not found. They may have lost connection, so try using an adminhelp!</font>"
 			return
 
-	//clean the message if it's not sent by a high-rank admin
-	//todo: sanitize for all???
-	if(!check_rights(R_SERVER|R_DEBUG,0))
-		msg = sanitize(msg)
-		if(!msg)	return
+	msg = sanitize(msg)
 
 	var/recieve_pm_type = "Player"
 	if(holder)
@@ -105,7 +101,7 @@
 		C << 'sound/effects/adminhelp.ogg'
 
 	log_adminpm(msg,src,C)
-	send2adminirc("Reply: [key_name(src)]->[key_name(C)]: [html_decode(msg)]")
+	send2adminirc("Reply: [key_name(src)]->[key_name(C)]: [lhtml_decode(msg)]")
 
 	//we don't use message_admins here because the sender/receiver might get it too
 	for(var/client/X in admins)
