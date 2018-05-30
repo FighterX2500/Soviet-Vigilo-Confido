@@ -30,3 +30,7 @@
 	name = "electropack"
 	path =/obj/item/device/radio/electropack
 	hidden = 1
+
+/datum/category_item/autolathe/devices/ecigcartridge
+	name = "ecigarette cartridge"
+	path = /obj/item/weapon/reagent_containers/ecig_cartridge/blank
