@@ -154,6 +154,7 @@
 
 	starts_with = list(
 		/obj/item/clothing/suit/radiation = 4,
+		/obj/item/clothing/head/radiation = 4,
 		/obj/item/device/geiger = 2)
 
 /*
@@ -202,7 +203,7 @@
 	icon_closed = "hydrant"
 	icon_opened = "hydrant_open"
 	plane = TURF_PLANE
-	layer = ABOVE_TURF_LAYER	
+	layer = ABOVE_TURF_LAYER
 	anchored = 1
 	density = 0
 	wall_mounted = 1
