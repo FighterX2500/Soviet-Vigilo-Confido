@@ -1453,7 +1453,7 @@
 	name = "Room 1"
 	},
 /obj/machinery/door/firedoor/glass,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/wood,
 /area/tether/surfacebase/reading_room)
 "cT" = (
 /obj/machinery/door/airlock{
@@ -1461,7 +1461,7 @@
 	name = "Room 2"
 	},
 /obj/machinery/door/firedoor/glass,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/wood,
 /area/tether/surfacebase/reading_room)
 "cU" = (
 /obj/machinery/door/airlock{
@@ -1469,7 +1469,7 @@
 	name = "Room 3"
 	},
 /obj/machinery/door/firedoor/glass,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/wood,
 /area/tether/surfacebase/reading_room)
 "cV" = (
 /obj/structure/table/reinforced,
@@ -16736,19 +16736,10 @@
 /obj/machinery/camera/network/civilian{
 	dir = 1
 	},
-/obj/machinery/firealarm{
-	dir = 1;
-	pixel_x = 0;
-	pixel_y = -25
-	},
 /turf/simulated/floor/wood,
 /area/crew_quarters/cafeteria)
 "Dt" = (
 /obj/machinery/light,
-/obj/item/device/radio/intercom{
-	dir = 2;
-	pixel_y = -24
-	},
 /obj/structure/table/bench/wooden,
 /turf/simulated/floor/wood,
 /area/crew_quarters/cafeteria)
@@ -18898,10 +18889,6 @@
 /turf/simulated/floor/tiled,
 /area/hallway/lower/third_south)
 "GX" = (
-/obj/machinery/computer/timeclock/premade/north{
-	pixel_x = -26;
-	pixel_y = 0
-	},
 /obj/structure/disposalpipe/segment{
 	dir = 4;
 	icon_state = "pipe-c"
@@ -21309,6 +21296,14 @@
 /obj/structure/window/reinforced,
 /turf/simulated/floor/tiled,
 /area/tether/surfacebase/public_garden_three)
+"Oc" = (
+/obj/machinery/firealarm{
+	dir = 1;
+	pixel_x = 0;
+	pixel_y = -25
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/cafeteria)
 "Oi" = (
 /obj/machinery/power/apc{
 	cell_type = /obj/item/weapon/cell/super;
@@ -21622,6 +21617,9 @@
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/status_display{
+	pixel_y = -30
+	},
 /turf/simulated/floor/wood,
 /area/crew_quarters/cafeteria)
 "Rw" = (
@@ -21899,6 +21897,12 @@
 /obj/item/weapon/storage/box/beakers,
 /turf/simulated/floor/wood,
 /area/tether/surfacebase/bar_backroom)
+"Ur" = (
+/obj/machinery/status_display{
+	pixel_y = -30
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/cafeteria)
 "Uu" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /obj/effect/floor_decal/borderfloor{
@@ -22035,6 +22039,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/tether/surfacebase/public_garden_three)
+"Vt" = (
+/obj/machinery/light,
+/turf/simulated/floor/wood,
+/area/crew_quarters/cafeteria)
 "VF" = (
 /obj/machinery/light{
 	dir = 1
@@ -22084,6 +22092,13 @@
 "VW" = (
 /turf/simulated/floor/wood,
 /area/tether/surfacebase/bar_backroom)
+"Wd" = (
+/obj/machinery/newscaster{
+	pixel_x = 0;
+	pixel_y = -30
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/cafeteria)
 "Ws" = (
 /obj/structure/table/bench/wooden,
 /turf/simulated/floor/grass,
@@ -22185,6 +22200,13 @@
 /obj/item/weapon/stool/padded,
 /turf/simulated/floor/lino,
 /area/crew_quarters/bar)
+"Yv" = (
+/obj/item/device/radio/intercom{
+	dir = 2;
+	pixel_y = -24
+	},
+/turf/simulated/floor/wood,
+/area/crew_quarters/cafeteria)
 "Yz" = (
 /obj/item/device/radio/intercom{
 	broadcasting = 1;
@@ -37313,7 +37335,7 @@ LR
 YP
 XG
 LR
-LR
+Vt
 rJ
 EF
 FH
@@ -37597,7 +37619,7 @@ Qo
 yh
 yK
 Qo
-LR
+Oc
 rJ
 QE
 sX
@@ -37881,7 +37903,7 @@ Qo
 Qo
 Qo
 Qo
-LR
+Wd
 rJ
 Qp
 sX
@@ -38165,7 +38187,7 @@ LR
 LR
 LR
 LR
-LR
+Yv
 rJ
 sX
 LP
@@ -38449,7 +38471,7 @@ LR
 LR
 LR
 LR
-LR
+Ur
 rJ
 EI
 Ty
